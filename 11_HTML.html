@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8">
+    <title>11. Table</title>
+</head>
+
+<body>
+    <h1>Table</h1>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>나이</th>
+                <th>성별</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>김지현</td>
+                <td rowspan="2">27살</td>
+                <td rowspan="2">여자</td>
+            </tr>
+            <tr>
+                <td>이희수</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>이제훈</td>
+                <td>34살</td>
+                <td>남자</td>
+                <!--세로로 병합하고 싶으면 'rowspan'을 사용하면 되고, 가로로 병합하고 싶으면 'colspan'을 사용하면 된다.-->
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
